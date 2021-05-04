@@ -1,2 +1,3 @@
-# Algorithm
-Problem Solving
+# 꾸준히 알고리즘 문제 풀기
+
+- 2021.05.04 : baekjoon 1012, 1260, 2178, 2606, 2667
