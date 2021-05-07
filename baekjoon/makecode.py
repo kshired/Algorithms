@@ -18,3 +18,4 @@ import sys
 input = lambda : sys.stdin.readline().rstrip()
 ''')
 f.close()
+print(f'{NUMBER}번 문제의 코드가 생성되었습니다.')
