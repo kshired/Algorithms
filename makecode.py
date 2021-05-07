@@ -10,7 +10,7 @@ URL = DEFAULT_URL+NUMBER
 resp = requests.get(URL)
 title = re.search('(?<=<title>).+?(?=</title>)', resp.text, re.DOTALL).group().strip().split(':')[1].strip()
 
-f = open(NUMBER+'.py','w')
+f = open('./baekjoon/'+NUMBER+'.py','w')
 f.write(f'''# {URL}
 # {title}
 
