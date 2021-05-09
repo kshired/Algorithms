@@ -3,7 +3,7 @@ import requests
 
 DEFAULT_URL = 'https://acmicpc.net/problem/'
 
-NUMBER = input().rstrip()
+NUMBER = input('문제의 번호를 입력해주세요 : ').rstrip()
 
 URL = DEFAULT_URL+NUMBER
 
