@@ -1,9 +1,10 @@
+import sys
 import re
 import requests
 
 DEFAULT_URL = 'https://acmicpc.net/problem/'
 
-NUMBER = input('문제의 번호를 입력해주세요 : ').rstrip()
+NUMBER = sys.argv[1]
 
 URL = DEFAULT_URL+NUMBER
 
