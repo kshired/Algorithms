@@ -7,7 +7,7 @@ DEFAULT_URL = 'https://acmicpc.net/problem/'
 if len(sys.argv) > 1:
     NUMBER = sys.argv[1]
 else:
-    NUMBER = int(input("문제 번호를 입력해주세요 : "))
+    NUMBER = input("문제 번호를 입력해주세요 : ")
 
 URL = DEFAULT_URL+NUMBER
 
