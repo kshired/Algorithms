@@ -7,7 +7,7 @@ initialize를 str(K)*i 로 해주고,
 그 후 테스트 케이스마다 dp set을 돌면서 최소값을 찾아 출력.
 ps) 이 코드를 python3나 pypy3로 제출하면 런타임 에러를 내뱉는다.
 이유는 모르겠지만, set에서 문제가 발생하는건지..
-같은 방법으로 cpp를 이용해 코드를 작성하면, 에러가 안난다 :()
+같은 방법으로 cpp를 이용해 코드를 작성하면, 에러가 안난다 :(
 '''
 
 from collections import defaultdict
