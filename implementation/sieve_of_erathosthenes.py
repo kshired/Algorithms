@@ -56,5 +56,4 @@ def findPrimeV3(N):
         for j in range(i*i,N+1,i*2):
             isPrime[j] = False
     
-    for i in prime:
-        print(i)
+    print(len(prime))
