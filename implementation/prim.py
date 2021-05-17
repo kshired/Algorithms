@@ -49,3 +49,4 @@ edges = [
 ]
 
 print(prim(1,edges))
+

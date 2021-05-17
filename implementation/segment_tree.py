@@ -49,3 +49,4 @@ def update(arr, tree, node, start, end, idx, diff):
     if start != end: # 리프 노드가 아니면, 왼쪽 서브트리와 오른쪽 서브트리 모두 update
         update(arr, tree, node*2, start, (start+end)//2, idx, diff)
         update(arr, tree, node*2+1, (start+end)//2+1, end, idx, diff)
+        

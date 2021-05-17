@@ -19,3 +19,4 @@ def quick_sort(arr, left, right):
 		quick_sort(arr, left, j)
 	if i < right:
 		quick_sort(arr, i, right)
+		

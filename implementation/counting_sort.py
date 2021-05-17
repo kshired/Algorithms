@@ -11,3 +11,4 @@ def counting_sort(arr):
 	for i in range(len(arr)-1,-1,-1):
 		arr[cntArr[tmp[i]]-1] = tmp[i]
 		cntArr[tmp[i]] -= 1
+		

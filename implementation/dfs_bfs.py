@@ -20,3 +20,4 @@ def bfs(v, graph, visit):
 				visit[i] = 1
 				print(i)
 				q.append(i)
+				

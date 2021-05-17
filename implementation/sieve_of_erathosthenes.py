@@ -57,3 +57,4 @@ def findPrimeV3(N):
             isPrime[j] = False
     
     print(len(prime))
+    

@@ -10,3 +10,4 @@ def floyd_warshall(graph):
         for i in range(N):
             for j in range(N):
                 graph[i][j] = min(graph[i][j],graph[i][k]+graph[k][j])
+                

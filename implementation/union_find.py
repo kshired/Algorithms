@@ -21,3 +21,4 @@ def merge(u, v):
 	parent[u] = v
 	if rank[u] == rank[v]:
 		rank[v] += 1
+		
