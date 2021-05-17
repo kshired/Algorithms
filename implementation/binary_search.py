@@ -10,4 +10,3 @@ def binary_search(arr,start,end,find):
 		return binary_search(arr,mid+1,end,find)
 	if arr[mid] > find:
 		return binary_search(arr,start,mid-1,find)
-		

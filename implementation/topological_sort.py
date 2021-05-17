@@ -28,4 +28,3 @@ while pq:
 		indegree[i] -= 1
 		if indegree[i] == 0:
 			heapq.heappush(pq,i)
-			

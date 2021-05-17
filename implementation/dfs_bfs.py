@@ -19,5 +19,4 @@ def bfs(v, graph, visit):
 			if graph[v][i] == 1 and visit[i] == 0:
 				visit[i] = 1
 				print(i)
-				q.append(i)
-				
+				q.append(i)			
