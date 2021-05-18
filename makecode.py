@@ -7,14 +7,18 @@ DEFAULT_URL = 'https://acmicpc.net/problem/'
 if len(sys.argv) > 1:
     NUMBER = sys.argv[1]
 else:
-    NUMBER = input("문제 번호를 입력해주세요 : ")
+    NUMBER = input('문제 번호를 입력해주세요 : ')
 
 URL = DEFAULT_URL+NUMBER
 
 resp = requests.get(URL)
 title = re.search('(?<=<title>).+?(?=</title>)', resp.text, re.DOTALL).group().strip().split(':')[1].strip()
 
-f = open('./baekjoon/'+NUMBER+'.py','w')
+try:
+    f = open('./baekjoon/'+NUMBER+'.py','x')
+except:
+    print(f'이미 [{NUMBER}. {title}] 파일이 존재합니다!')
+    sys.exit(1)
 f.write(f'''# {URL}
 # {title}
 
