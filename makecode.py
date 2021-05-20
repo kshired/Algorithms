@@ -28,4 +28,4 @@ input_multiple_int = lambda : map(int,input().split())
 
 ''')
 f.close()
-print(f'{NUMBER}번 문제의 코드가 생성되었습니다.')
+print(f'[{NUMBER}번: {title}] 문제의 코드가 생성되었습니다.')
