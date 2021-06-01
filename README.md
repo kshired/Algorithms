@@ -1,7 +1,7 @@
 # 꾸준히 알고리즘 문제 풀기
 
 [![Solved.ac
-프로필](http://mazassumnida.wtf/api/generate_badge?boj=python4)](https://solved.ac/python4)
+프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=python4)](https://solved.ac/python4)
 
 ## 기록
 
