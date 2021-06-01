@@ -1,6 +1,9 @@
 # 꾸준히 알고리즘 문제 풀기
 
-## 하루 하루의 기록
+[![Solved.ac
+프로필](http://mazassumnida.wtf/api/generate_badge?boj=python4)](https://solved.ac/python4)
+
+## 기록
 
 - 2021.05.04 : baekjoon 1012, 1260, 1987, 2178, 2606, 2667, 10026, 11724
 
