@@ -61,6 +61,8 @@
 
 - 2021.06.05 : leetcode 70, leet code 43
 
+- 2021.06.09 : leetcode 46
+
 ## makecode
 
 문제 번호를 입력하면, ps용 코드의 기본 틀을 작성 해 줌.
