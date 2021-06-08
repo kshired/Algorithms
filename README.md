@@ -61,7 +61,7 @@
 
 - 2021.06.05 : leetcode 70, leet code 43
 
-- 2021.06.09 : leetcode 46
+- 2021.06.09 : leetcode 46, 104, 121
 
 ## makecode
 
