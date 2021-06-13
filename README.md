@@ -59,7 +59,7 @@
 
 - 2021.05.31 : leetcode 75
 
-- 2021.06.05 : leetcode 70, leet code 43
+- 2021.06.05 : leetcode 43, 70
 
 - 2021.06.09 : leetcode 46, 104, 121, 146
 
@@ -67,7 +67,7 @@
 
 - 2021.06.12 : baekjoon 1389, 1926, 2096, 7562
 
-- 2021.06.13 : baekjoon 1240, 2479
+- 2021.06.13 : baekjoon 1240, 2479 && programmers 주식가격
 
 ## makecode
 
