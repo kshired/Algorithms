@@ -67,7 +67,7 @@
 
 - 2021.06.12 : baekjoon 1389, 1926, 2096, 7562
 
-- 2021.06.13 : baekjoon 1240, 2479 && programmers 주식가격
+- 2021.06.13 : baekjoon 1240, 2479 && programmers 주식가격, H-Index
 
 ## makecode
 
