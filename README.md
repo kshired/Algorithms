@@ -69,6 +69,8 @@
 
 - 2021.06.13 : baekjoon 1240, 2479 && programmers 주식가격, H-Index
 
+- 2021.06.14 : baekjoon 1103, 1405
+
 ## makecode
 
 문제 번호를 입력하면, ps용 코드의 기본 틀을 작성 해 줌.
