@@ -6,6 +6,7 @@ input = lambda : sys.stdin.readline().rstrip()
 input_multiple_int = lambda : map(int,input().split())
 
 N = list(input())
-res = int(''.join(N.sort(reverse=True)))
+N.sort(reverse=True)
+res = int(''.join(N))
 
 print(res)
