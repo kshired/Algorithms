@@ -1,4 +1,4 @@
-# 꾸준히 알고리즘 문제 풀기
+# kshired.Algorithms
 
 [![Solved.ac
 프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=python4)](https://solved.ac/python4)
@@ -11,7 +11,7 @@
 
 - 알고리즘 문제를 푼 날짜와, 푼 문제를 정리합니다.
 
-## makecode.py
+## [makecode.py](./makecode.py)
 
 ### What is this?
 
