@@ -3,6 +3,25 @@
 [![Solved.ac
 프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=python4)](https://solved.ac/python4)
 
+## 이론
+
+### Search
+
+- [Linear Search](./theory/LinearSearch.md)
+- [Binary Search](./theory/BinarySearch.md)
+
+### Data Structures
+
+- [Stack](./theory/Stack.md)
+- [Queue](./theory/Queue.md)
+- [Deque](./theory/Deque.md)
+- [Heap](./theory/Heap.md)
+- [Tree](./theory/Tree.md)
+- [Binary Tree](./theory/BinaryTree.md)
+- [Binary Search Tree](./theory/BinarySearchTree.md)
+- [Union Find](./theory/UnionFind.md)
+- [Segment Tree](./theory/SegmentTree.md)
+
 ## 기록
 
 - 2021.05.04 : baekjoon 1012, 1260, 1987, 2178, 2606, 2667, 10026, 11724
