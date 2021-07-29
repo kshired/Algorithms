@@ -114,4 +114,29 @@
 
 ## makecode
 
-문제 번호를 입력하면, ps용 코드의 기본 틀을 작성 해 줌.
+### What is this?
+
+백준 문제 번호를 입력하면, ps용 파이썬 코드의 기본 틀을 만들어주는 간단한 프로그램입니다.
+일괄적으로 만들어주면 좋겠다 싶어서, 만들었습니다.
+
+**생성 코드 예시**
+
+```python
+# https://acmicpc.net/problem/9656
+# 돌 게임 2
+
+import sys
+input = lambda : sys.stdin.readline().rstrip()
+input_multiple_int = lambda : map(int,input().split())
+```
+
+### How to use?
+
+- `python3 makecode.py 문제 번호`
+- `python3 makecode.py` 후, 문제 번호 입력
+
+### Dependencies
+
+```
+requests
+```
