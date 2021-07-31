@@ -27,3 +27,12 @@
 - [Quick Sort](../theory/QuickSort.md)
 - [Merge Sort](../theory/MergeSort.md)
 - [Intro Sort](../theory/IntroSort.md)
+
+### Graph
+
+- [Graph](../theory/Graph.md)
+- [DFS and BFS](../theory/DFS_BFS.md)
+- [Topological Sort](../theory/TopologicalSort.md)
+- [Dijkstra](../theory/Dijkstra.md)
+- [Kruskal Algorithm and Prim Algorithm](../theory/Kruskal_Prim.md)
+- [Floyd Warshall](../theory/FloydWarshall.md)
