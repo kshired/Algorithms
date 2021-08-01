@@ -36,3 +36,13 @@
 - [Dijkstra](../theory/Dijkstra.md)
 - [Kruskal Algorithm and Prim Algorithm](../theory/Kruskal_Prim.md)
 - [Floyd Warshall](../theory/FloydWarshall.md)
+
+### Math
+
+- [Euclidean Algorithm](../theory/Euclidean.md)
+
+### ETC
+
+- [Two Pointer And Sliding Window](../theory/TwoPointer.md)
+- [Greedy Algorithm](../theory/Greedy.md)
+- [Dynamic Programming](../theory/DynamicProgramming.md)
