@@ -121,7 +121,7 @@ print(solve(N))
 
 ### 2종류의 LCS
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e0b453f1-7ac3-4910-b239-cd93ff55e8c2/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e0b453f1-7ac3-4910-b239-cd93ff55e8c2/Untitled.png)
+![lcs](./images/lcs.png)
 
 **LCS(Longest Common Substring, 최장 공통 문자열)**
 
