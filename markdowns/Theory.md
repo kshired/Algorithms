@@ -40,6 +40,7 @@
 ### Math
 
 - [Euclidean Algorithm](../theory/Euclidean.md)
+- [Permutations And Combinations](../theory/PermsAndCombs.md)
 
 ### ETC
 
