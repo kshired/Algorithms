@@ -11,7 +11,7 @@ def combinations(arr,n):
     for i in range(len(arr)):
         now = arr[i]
         rest = arr[i+1:]
-        for combination in combinations(n-1):
+        for combination in combinations(rest,n-1):
             res.append([now]+combination)
     return res
 ```
