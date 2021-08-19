@@ -101,3 +101,5 @@
 - 2021.08.08 : programmers 카펫, leetcode 88
 
 - 2021.08.14 : programmers 3진법 뒤집기, 내적, 상호 평가, 음양 더하기
+
+- 2021.08.19 : programmers 등굣길, 섬 연결하기
