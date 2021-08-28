@@ -11,7 +11,7 @@
 
 - 알고리즘 문제를 푼 날짜와, 푼 문제를 정리합니다.
 
-## [makecode.py](./makecode.py)
+## [make.py](make/make.py)
 
 ### What is this?
 
@@ -31,8 +31,8 @@ input_multiple_int = lambda : map(int,input().split())
 
 ### How to use?
 
-- `python3 makecode.py 문제 번호`
-- `python3 makecode.py` 후, 문제 번호 입력
+- `python3 make/make.py`
+- 사이트 선택 및 문제번호 입력
 
 ### Dependencies
 
