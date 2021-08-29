@@ -5,9 +5,9 @@ from base_site import BaseSite
 class Programmers(BaseSite):
     def __init__(self,problem_number):
         super().__init__('https://programmers.co.kr/learn/courses/30/lessons',problem_number)
-        self.__set_title()
+        self.set_title()
     
-    def __set_title(self):
+    def set_title(self):
         title = re.search('(?<=<title>).+?(?=</title>)', self.response.text, re.DOTALL).group().strip()
         title = re.search('[-](.*?)[|]',title,re.DOTALL).group().strip()[2:-2]
         self.title = title
@@ -20,4 +20,4 @@ class Programmers(BaseSite):
         return f'{os.path.dirname(__file__)}/../programmers/{file_name}.py'
     
     def get_content(self):
-        return f'# {self.url}\n# {self.title}\n'
+        return f'# {self.url}/{self.problem_number}\n# {self.title}\n'
