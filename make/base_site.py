@@ -7,7 +7,7 @@ class BaseSite:
         self.response = requests.get(f'{url}/{problem_number}')
         self.title = None
     
-    def set_title(self):
+    def __set_title(self):
         pass
     
     def get_title(self):

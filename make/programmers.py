@@ -5,9 +5,9 @@ from base_site import BaseSite
 class Programmers(BaseSite):
     def __init__(self,problem_number):
         super().__init__('https://programmers.co.kr/learn/courses/30/lessons',problem_number)
-        self.set_title()
+        self.__set_title()
     
-    def set_title(self):
+    def __set_title(self):
         title = re.search('(?<=<title>).+?(?=</title>)', self.response.text, re.DOTALL).group().strip()
         title = re.search('[-](.*?)[|]',title,re.DOTALL).group().strip()[2:-2]
         self.title = title
