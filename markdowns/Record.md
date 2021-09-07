@@ -125,3 +125,5 @@
 - 2021.09.02 : topcoder Cryptography, InterestingDigits, InterestingParty, KiwiJuiceEasy
 
 - 2021.09.06 : programmers 복서 정렬하기
+
+- 2021.09.07 : baekjoon 22950, 22951
