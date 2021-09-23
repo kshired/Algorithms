@@ -18,4 +18,4 @@ class Baekjoon(BaseSite):
         return f'{os.path.dirname(__file__)}/../baekjoon/{self.problem_number}.py'
     
     def get_content(self):
-        return f'# {self.url}\n# {self.title}\n\nimport sys\ninput = lambda : sys.stdin.readline().rstrip()\ninput_multiple_int = lambda : map(int,input().split())\n'
+        return f'# {self.url}/{self.problem_number}\n# {self.title}\n\nimport sys\ninput = lambda : sys.stdin.readline().rstrip()\ninput_multiple_int = lambda : map(int,input().split())\n'
